@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'DBEnginer/Classes/**/*'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'DBEnginer' => ['DBEnginer/Assets/*.png']
@@ -38,5 +39,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Unrealm', '~> 2.3'
+  
 end
