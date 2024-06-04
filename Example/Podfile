@@ -4,7 +4,7 @@ platform :ios, '13.0'
 
 target 'DBEnginer_Example' do
   pod 'DBEnginer', :path => '../'
-#  pod 'Unrealm'
+  pod 'Unrealm', '~> 1.9.5'
   target 'DBEnginer_Tests' do
     inherit! :search_paths
 
