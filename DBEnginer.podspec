@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DBEnginer'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = 'realm 管理'
 
 # This description is used to generate tags and improve search results.
@@ -39,6 +39,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
-  # s.dependency 'Unrealm', '~> 1.9.5'
+  s.dependency 'Unrealm', '~> 1.9.5'
   
 end

@@ -1,0 +1,16 @@
+PODS:
+  - DBEnginer (0.2.4)
+
+DEPENDENCIES:
+  - DBEnginer (from `../`)
+
+EXTERNAL SOURCES:
+  DBEnginer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DBEnginer: fa6e2933b21e5b2590a994146c40217ec6ce4674
+
+PODFILE CHECKSUM: f1de5edffec2d9681f2bdae64b652fca3cb93c7d
+
+COCOAPODS: 1.15.2
