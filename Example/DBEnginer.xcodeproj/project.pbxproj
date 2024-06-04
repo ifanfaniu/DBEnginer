@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		015415C77EF1C3006C516BB9 /* Pods_DBEnginer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBEnginer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11AE5BA3D086C6DE13F71AC4 /* Pods_DBEnginer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBEnginer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		236C3836AA1FE48ED61BFE12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4B9B9EF35D6D7DA08E6AAF7E /* DBEnginer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DBEnginer.podspec; path = ../DBEnginer.podspec; sourceTree = "<group>"; };
+		236C3836AA1FE48ED61BFE12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4B9B9EF35D6D7DA08E6AAF7E /* DBEnginer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DBEnginer.podspec; path = ../DBEnginer.podspec; sourceTree = "<group>"; };
 		52666F7034236819CE8E0FE2 /* Pods-DBEnginer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBEnginer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DBEnginer_Tests/Pods-DBEnginer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DBEnginer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBEnginer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* DBEnginer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBEnginer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		87A7987E9B14AC795F03C736 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		87A7987E9B14AC795F03C736 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AB74077BD43EE61B6A4BFC88 /* Pods-DBEnginer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBEnginer_Example.release.xcconfig"; path = "Target Support Files/Pods-DBEnginer_Example/Pods-DBEnginer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D63BCA95D82A086DFE4CF348 /* Pods-DBEnginer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBEnginer_Example.debug.xcconfig"; path = "Target Support Files/Pods-DBEnginer_Example/Pods-DBEnginer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FC17C9A012508249694AEC90 /* Pods-DBEnginer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBEnginer_Tests.release.xcconfig"; path = "Target Support Files/Pods-DBEnginer_Tests/Pods-DBEnginer_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				52666F7034236819CE8E0FE2 /* Pods-DBEnginer_Tests.debug.xcconfig */,
 				FC17C9A012508249694AEC90 /* Pods-DBEnginer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = R92P42XQ3R;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = R92P42XQ3R;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +480,7 @@
 			baseConfigurationReference = D63BCA95D82A086DFE4CF348 /* Pods-DBEnginer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R92P42XQ3R;
 				INFOPLIST_FILE = DBEnginer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = AB74077BD43EE61B6A4BFC88 /* Pods-DBEnginer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R92P42XQ3R;
 				INFOPLIST_FILE = DBEnginer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52666F7034236819CE8E0FE2 /* Pods-DBEnginer_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = R92P42XQ3R;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC17C9A012508249694AEC90 /* Pods-DBEnginer_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = R92P42XQ3R;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
