@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DBEnginer_Example' do
+  pod 'DBEnginer', :path => '../'
+
+  target 'DBEnginer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
