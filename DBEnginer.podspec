@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Unrealm'
+  s.frameworks = 'UIKit', 'Foundation'
+  s.dependency 'Unrealm', '~> 1.9.5'
   
 end
