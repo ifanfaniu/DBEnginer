@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DBEnginer'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'realm 管理'
 
 # This description is used to generate tags and improve search results.
